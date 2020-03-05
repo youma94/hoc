@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.carte{
+  width: 20vw;
+  height: 28vw;
+  border:1px solid black;
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 1.5vw;
+}
+.carte:hover{
+  height: 29vw;
+}
+.carteImg{
+  width: 100%;
+  height: 70%;
+}
+.galerie{
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+.list-item{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.search{
+  width: 70vw;
+  height: 3vw;
+  border-radius: 1.5vw;
+  border: 1px gray solid;
+}
+li{
+  list-style : none;
+  display: inline-block;
+}
+.nav{
+  width: 100vw;
+  display : flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.plus{
+  font-size: 10vw;
+}
+.serRat{
+  
+}
+ul{
+}
+.serRat>ul{
+align-self: center;
+text-align: left;
+}
+.topRate{
+  position: relative;
+  right: -3vw;
+  top: -22.5vw;;
+  color: yellow;
+}
+.carte>p{
+  margin:0px;
+}
